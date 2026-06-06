@@ -28,7 +28,7 @@
         }
         
         img{
-            animation: rotate 4s linear infinite ;    
+            animation: rotate 4s linear infinite 0.6s ;    
         }
         
         @keyframes rotate{
@@ -90,10 +90,9 @@
             u_mouseVel: { value: 0.0 },
             u_time: { value: 1.0 },
             u_radius: { value: 400.0 },
-            u_color: { value: new THREE.Color('#f22998') }
+            u_color: { value: new THREE.Color('#f20519') }
         };
 
-        // FIXED VERTEX SHADER SCRIPT (Syntax errors removed)
        const vertexShader = `
             uniform vec2 u_mouse;
             uniform float u_mouseVel;
