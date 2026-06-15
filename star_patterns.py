@@ -41,8 +41,8 @@ rows = 5
 for i in range(rows):  # Loop for rows
     for j in range(rows):  # Loop for columns
         if i == 0 or i == rows - 1 or j == 0 or j == rows - 1:  
-            print("*", end="")  # Print stars at borders
+            print("*", end="  ")  # Print stars at borders
         else:  
-            print("", end="")  # Print spaces inside
+            print("  ", end="  ")  # Print spaces inside
     print()
 
