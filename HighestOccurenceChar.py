@@ -1,18 +1,13 @@
-# count = {}
+#Find Highest occurence character from the string
 
-# a = "bhavya"
-# for i in a:
-#     count[i] = count.get(i,0) + 1
-   
-# for k in count:
-#     if count[k] > 1:
-#       print(k)
-   
+count = {}
 
-a = [1,4,5,6,2]
-largest = a[0]
+a = "bhavya"
 for i in a:
-    if(i>largest):
-      largest = i
+    count[i] = count.get(i,0) + 1
+   
+for k in count:
+    if count[k] > 1:
+      print(k)
+   
 
-print("largest Elem in Array: ",largest)
