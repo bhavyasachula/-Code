@@ -12,7 +12,7 @@
 a = [1,4,5,6,2]
 largest = 0
 for i in a:
-    if(a[i]>largest):
-        largest = a[i]
+    if(i>largest):
+        largest = i
 
 print(largest)
