@@ -1,6 +1,6 @@
 # Find the Second Largest Element from the Array
 
-a = [1,4,7,7,5]
+a = [1,2,4,7,7,5]
 
 largest = 0
 secondLargest = 0 
