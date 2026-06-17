@@ -7,7 +7,7 @@ using namespace std;
 int SmallestElem(vector<int> arr){
     int smallest = arr[0];
     for(int i = 0; i < arr.size(); i++ ){
-        if(arr[i]<smallest){
+        if(arr[i]<smallest){  // opposite of largerest condition
             smallest = arr[i];
         }
     }
